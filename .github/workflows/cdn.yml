@@ -1,5 +1,7 @@
 name: Publish To CDN
 
+on: push
+
 jobs:
   publish:
     - uses: actions/checkout@master
